@@ -1,0 +1,9 @@
+split,model,acc,n_train
+"A random, all windows",LogReg,0.9843673288475412,8239
+"A random, all windows",RandomForest,0.9787359779702655,8239
+"B random, non-overlapping",LogReg,0.976454357443912,4280
+"B random, non-overlapping",RandomForest,0.9680436660645567,4280
+"C same people, split by time",LogReg,0.9428205288858035,3037
+"C same people, split by time",RandomForest,0.9371889335910671,3037
+D split by person,LogReg,0.9476534075059648,4280
+D split by person,RandomForest,0.9317490219106336,4280
